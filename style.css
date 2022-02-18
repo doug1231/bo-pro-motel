@@ -1,0 +1,32 @@
+html, body{
+	height: 100%;
+}
+
+html{
+	font-size: 100%;
+	scrollbar-color: #09B864 rgba(0,0,0,0.9);
+	scrollbar-width: thin;
+}
+
+body{
+	font-size: clamp(1rem, 3vmin, 1.5em);
+	font-family:sans-serif;
+	margin: 0;
+	user-select:none;
+	color:rgba(0,0,0,0.8);
+	background-color: rgba(240,240,245);
+	overflow: hidden;
+}
+
+::-webkit-scrollbar {
+	width: 4px;
+	height: 8px;
+	background-color: rgba(0,0,0,0.9);
+}
+::-webkit-scrollbar-thumb {
+		background: #09B864;
+}
+
+canvas{
+	touch-action: none;
+}
